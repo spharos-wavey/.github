@@ -1,9 +1,38 @@
 # 스파로스 아카데미 - 팀 웨이비(Wavey)
 
 ## 팀 구성
-|김지욱|김민지|송윤서|신현채|홍미소|
+|김지욱(BE)|김민지(BE)|송윤서(FE)|신현채(BE)|홍미소(FE)|
 |:-:|:-:|:-:|:-:|:-:|
 |팀장<br>인프라 구성<br>CI/CD파이프 라인<br>카카오 결제<br>[Rental-service](https://github.com/spharos-wavey/rental-service)|백엔드 리더<br>DB Replication<br>[user-service](https://github.com/spharos-wavey/user-service)|프론트 리더<br>스크럼 마스터<br>[front](https://github.com/spharos-wavey/spharos-wavey-frontend)|[Vehicle-service](https://github.com/spharos-wavey/vehicle-service)|차량 예약 및 결제<br>[front](https://github.com/spharos-wavey/spharos-wavey-frontend)|
+
+### Tech stack
+Back-end  
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=Spring Boot&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=flat&logo=Spring Security&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
+<img src="https://img.shields.io/badge/jwt-000000?style=flat&logo=jsonwebtokens&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=Redis&logoColor=white" />
+<img src="https://img.shields.io/badge/apachekafka-231F20?style=flat&logo=apachekafka&logoColor=white"/>
+
+FrontEnt  
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=Next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white" />
+<img src="https://img.shields.io/badge/Recoil-5A29E4?style=flat&logo=Recoil&logoColor=white" />
+<img src="https://img.shields.io/badge/Axios-000000?style=flat&logo=Axios&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
+
+
+Tool  
+<img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat&logo=IntelliJ IDEA&logoColor=white" />
+<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=flat&logo=GitHub Actions&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat&logo=Google Cloud&logoColor=white" />
 
 ## 전기차 카 셰어링 서비스 BILLITA ([링크](https://billita.xyz))  (서버 상태 : OPEN)
 <details>
@@ -11,7 +40,30 @@
 <div markdown="1">
 
   **이벤트스토밍**  
-  <img src="https://github.com/spharos-wavey/.github/assets/90381800/fcbe101b-f8ca-4d10-a0fd-d8085d903a07" width=800px height=500px>
+ 
+  |팀 회의|결과물|
+  |-|-|
+  |<img src="https://github.com/spharos-wavey/.github/assets/90381800/10eb21f7-e036-4bb9-9b85-92f2d5bc0b71" width=400px height=250px>|<img src="https://github.com/spharos-wavey/.github/assets/90381800/fcbe101b-f8ca-4d10-a0fd-d8085d903a07" width=400px height=250px>|
+ 
+ **DB설계**
+ 
+ <table>
+  <tr>
+    <td>erd cloud</td>
+    <td colspan="3">결과물</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="https://github.com/spharos-wavey/.github/assets/90381800/fc27b89a-5fa9-4990-b01c-d66b49627018" width=400px height=250px></td>
+    <td>user</td>
+    <td>vehicle</td>
+    <td>rental</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/spharos-wavey/.github/assets/90381800/9aa024a4-8af2-487b-bb9b-1fc7d8594c4e"></td>
+    <td><img src="https://github.com/spharos-wavey/.github/assets/90381800/b6075249-8ee2-4a3b-8726-769964bec437"></td>
+    <td><img src="https://github.com/spharos-wavey/.github/assets/90381800/35d1dab4-93c1-4a46-a69a-7b7248529149"></td>
+  </tr>
+</table>
   
 </div>
 </details>
