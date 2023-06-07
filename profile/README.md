@@ -3,7 +3,7 @@
 ## 팀 구성
 |김지욱(BE)|김민지(BE)|송윤서(FE)|신현채(BE)|홍미소(FE)|
 |:-:|:-:|:-:|:-:|:-:|
-|팀장<br>인프라 구성<br>CI/CD파이프 라인<br>카카오 결제<br>[Rental-service](https://github.com/spharos-wavey/rental-service)|백엔드 리더<br>DB Replication<br>[user-service](https://github.com/spharos-wavey/user-service)|프론트 리더<br>스크럼 마스터<br>[front](https://github.com/spharos-wavey/spharos-wavey-frontend)|[Vehicle-service](https://github.com/spharos-wavey/vehicle-service)|차량 예약 및 결제<br>[front](https://github.com/spharos-wavey/spharos-wavey-frontend)|
+|팀장<br>인프라 구성<br>CI/CD파이프 라인<br>카카오 결제<br>[Rental-service](https://github.com/spharos-wavey/rental-service)|백엔드 리더<br>DB Replication<br>kafka<br>[user-service](https://github.com/spharos-wavey/user-service)|프론트 리더<br>스크럼 마스터<br>[front](https://github.com/spharos-wavey/spharos-wavey-frontend)|[Vehicle-service](https://github.com/spharos-wavey/vehicle-service)|차량 예약 및 결제<br>[front](https://github.com/spharos-wavey/spharos-wavey-frontend)|
 
 ### Tech stack
 Back-end  
