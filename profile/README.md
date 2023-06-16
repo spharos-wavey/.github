@@ -34,7 +34,17 @@ Tool
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat&logo=Google Cloud&logoColor=white" />
 
-## 전기차 카 셰어링 서비스 BILLITA ([링크](https://billita.xyz))  (서버 상태 : OPEN)
+## 전기차 카 셰어링 서비스 BILLITA ([링크](https://billita.xyz))  (서버 상태 : CLOSE)
+
+### 아키텍쳐 ###
+
+<img src="https://github.com/spharos-wavey/.github/assets/90381800/216a5eee-6a38-4f4c-91ab-a579a6ddddd4" />
+
+* 프론트엔드 서버는 버셀을 이용하였기에 버셀에서 CI/CD 진행
+* 백엔드는 깃 액션을 통해 CI/CD 진행
+* 프론트는 https, 백엔드는 http가 기본 프로토콜로 적용되어있음
+  * 해당 문제를 해결하기 위하여 GCP load balancer를 사용하였음.
+
 <details>
 <summary>프로젝트 진행과정</summary>
 <div markdown="1">
@@ -68,3 +78,19 @@ Tool
 </div>
 </details>
 
+<details>
+<summary>DB replication test</summary>
+ <div markdown="1">
+  테스트 도구 : Jmeter
+  <table>
+   <tr>
+    <td>예약 등록</td>
+    <td>예약 조회</td>
+   </tr>
+   <tr>
+    <td>예약 등록</td>
+    <td>예약 조회</td>
+   </tr>
+  </table>
+ </div>
+</details>
