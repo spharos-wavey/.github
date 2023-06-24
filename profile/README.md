@@ -34,7 +34,7 @@ Tool
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat&logo=Google Cloud&logoColor=white" />
 
-## 전기차 카 셰어링 서비스 BILLITA ([링크](https://billita.xyz))  (서버 상태 : CLOSE)
+## 전기차 카 셰어링 서비스 BILLITA ([링크](https://billita.xyz))  (서버 상태 : OPEN)
 
 ### 아키텍쳐 ###
 
@@ -81,16 +81,8 @@ Tool
 <details>
 <summary>DB replication test</summary>
  <div markdown="1">
-  테스트 도구 : Jmeter
-  <table>
-   <tr>
-    <td>예약 등록</td>
-    <td>예약 조회</td>
-   </tr>
-   <tr>
-    <td>예약 등록</td>
-    <td>예약 조회</td>
-   </tr>
-  </table>
+  <img src="https://github.com/spharos-wavey/.github/assets/90381800/159ee3d7-8eac-41ea-ac14-67f519867276"/>
+  <img src="https://github.com/spharos-wavey/.github/assets/90381800/0570a93a-a7cd-4a77-832a-b207ed421aee"/>
+  <img src="https://github.com/spharos-wavey/.github/assets/90381800/a4d1d9e8-2b8e-4253-baf4-8ff4348e16ee"/>
  </div>
 </details>
